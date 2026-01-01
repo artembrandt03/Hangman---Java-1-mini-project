@@ -1,5 +1,6 @@
 # Hangman Game - My First Java Project
 This repository contains my first-ever Java project, a Hangman game developed during my introductory programming class at Dawson College. It represents my early exploration into Java programming, showcasing fundamental concepts and the thrill of creating an interactive console-based game.
+
 ## Concepts Demonstrated
 This project demonstrates the following key programming concepts:
 
@@ -9,6 +10,40 @@ This project demonstrates the following key programming concepts:
 - Input Handling: Using Scanner to accept user input and validate guesses.
 - Arrays and Strings: Manipulating characters in a word and tracking guessed letters.
 - Game Logic: Implementing conditions for winning, losing, and displaying the game state.
+
+## Tech Stack
+- Language: Java
+- Runtime: Java SE (JDK 8+)
+- Interface: Console / Terminal
+- Libraries Used:
+- - java.util.Scanner
+- - java.util.Random
+
+## How to run locally
+### Prerequisities
+- Java JDK installed (Java 8 or newer)
+- Terminal or Command Prompt
+### Steps
+1. Clone the repository
+```Bash
+git clone https://github.com/artembrandt03/Hangman---Java-1-mini-project.git
+cd Hangman---Java-1-mini-project/
+```
+2. Compile the program
+```Bash
+javac Hangman.java
+```
+3. Run the game
+```Bash
+java Hangman
+```
+The game will start in the terminal and prompt you to guess letters.
+
+## Project Structure
+```T
+Hangman.java # Entire game logic contained in a single file
+```
+This project intentionally uses a single Java file, as it was built early in my learning journey before object-oriented structuring was introduced.
 
 ## Video Showcase
 (low quality due to video compression)
