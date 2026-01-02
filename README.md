@@ -19,6 +19,21 @@ This project demonstrates the following key programming concepts:
 - - java.util.Scanner
 - - java.util.Random
 
+## Demo in Browser (GitHub Codespaces)
+
+You can run this project **directly in your browser** using GitHub Codespaces — no local setup required :)
+
+### Steps
+1. Click the green **Code** button at the top of the repository
+2. Select **Codespaces**
+3. Click **Create codespace on main**
+4. Once the environment loads, open the terminal
+5. Run the following commands:
+```bash
+javac Hangman.java
+java Hangman
+```
+
 ## How to run locally
 ### Prerequisities
 - Java JDK installed (Java 8 or newer)
